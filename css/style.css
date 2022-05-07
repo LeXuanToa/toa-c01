@@ -1,0 +1,90 @@
+body {
+    color: #173451;
+    width: 80%;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    color: #992154;
+  }
+  
+  h2 {
+    color: #fcbf16;
+  }
+  h3 {
+    text-align: center;
+
+  }
+ h4 {
+   font-size: 18px;
+ }
+  nav {
+    
+  }
+  .text1 {
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    justify-content: space-between;
+  }
+  .main .leftside {
+    width: 80%;
+    margin-right: 20px;
+  }
+  .main .leftside .image1{
+    width: 100%;
+    height: 261px;
+  
+  }
+
+  .main .leftside .image1 img{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+  }
+
+  .main .rightside {
+    width: 30%;
+  }
+  .main .rightside .image2 {
+    width: 100%;
+  }
+  .main .rightside .image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .nav .menu {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: #fcbf16;
+    
+  }
+  .nav .menu .left{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+  }
+  .nav .menu .right{
+    display: inline-block;
+    margin-left: 850px;
+  }
+table {
+  border: 1px solid #8a8888;
+  
+}
+table tr, th, td {
+  
+  border: 1px solid black;
+}
+.above {
+  border-bottom: 1px solid rgb(107, 105, 105);
+}
